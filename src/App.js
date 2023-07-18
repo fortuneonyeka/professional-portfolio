@@ -1,8 +1,8 @@
 
 function App() {
   return (
-    <div className=" ">
-      
+    <div className="capitalize text-4xl font-bold font-signature">
+      hello world
     </div>
  
   );

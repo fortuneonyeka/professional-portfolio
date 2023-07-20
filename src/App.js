@@ -1,8 +1,9 @@
+import NavBar from "./components/navogations/NavBar";
 
 function App() {
   return (
-    <div className="capitalize text-4xl font-bold font-signature">
-      hello world
+    <div className="">
+     <NavBar />
     </div>
  
   );

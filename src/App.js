@@ -1,5 +1,6 @@
 import NavBar from "./components/navogations/NavBar";
 import Home from "./components/Home";
+import About from "./components/about/About";
 import SocialLinks from "./components/socials/SocialLinks";
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
     <div className="">
       <NavBar />
       <Home />
-
-      <SocialLinks/>
+      <About />
+      <SocialLinks />
     </div>
   );
 }

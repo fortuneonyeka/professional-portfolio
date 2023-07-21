@@ -28,8 +28,9 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center px-6 w-full h-20 text-green-200 bg-black  fixed z-10">
-      <div>
+    <div className="relative">
+    <div className="flex justify-between items-center px-6 w-full h-20  bg-black fixed z-10">
+      <div className="text-green-200">
         <h1 className="font-signature text-5xl">Fortunatus</h1>
       </div>
 
@@ -55,6 +56,7 @@ const NavBar = () => {
       )}
 
       
+    </div>
     </div>
   );
 };

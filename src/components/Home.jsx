@@ -17,16 +17,16 @@ const Home = () => {
             Ruby, and Ruby on Rails with Postgres, Tailwind and GraphQL.
           </p>
 
-          <div className="py-2">
-            <button className="group text-white w-fit px-6 py-2 my-1 flex items-center rounded-md bg-gradient-to-tr from-cyan-500 to-blue-500 cursor-pointer">
+          <div className="py-2 ">
+            <button className="group text-white w-fit px-6 py-2 my-1 flex items-center rounded-md bg-gradient-to-tr from-cyan-500 to-blue-500 cursor-pointer shadow-md shadow-green-200">
               <span className="group-hover:scale-110">Projects </span>
               <span className="px-4 group-hover:rotate-90 duration-300 group-hover:scale-150"><MdKeyboardArrowRight size={25}/></span>
               </button>
           </div>
         </div>
 
-        <div className=" w2/3 mx-auto md:w-full">
-          <img src={HeroImage}  alt="my profile" className="rounded-2xl h-[30vh] w-[90vw]  md:h-[45vw] lg:h-[60vh]" />
+        <div className=" w2/3 mx-auto md:w-full ">
+          <img src={HeroImage}  alt="my profile" className="rounded-2xl h-[30vh] w-[90vw]  md:h-[45vw] lg:h-[60vh] shadow-md shadow-green-200" />
         </div>
       </div>
     </div>

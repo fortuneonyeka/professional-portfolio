@@ -34,10 +34,10 @@ const NavBar = () => {
         <h1 className="font-signature text-5xl">Fortunatus</h1>
       </div>
 
-      <ul className=" gap-4 cursor-pointer capitalize font-medium text-gray-400 hidden md:flex">
+      <ul className=" gap-4 cursor-pointer capitalize font-medium text-gray-400 hidden md:flex ">
         {links.map(({id, link}) => (
 
-        <li className="hover:scale-105 duration-200" key={id}>{link}</li>
+        <li className="hover:scale-105 duration-200 " key={id}>{link}</li>
         ))}
         
       </ul>
@@ -47,7 +47,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col py-16 items-center absolute top-14 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 md:hidden capitalize gap-4 text-4xl">
+        <ul className="flex flex-col py-16 items-center absolute top-14 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 md:hidden capitalize gap-4 text-4xl ">
         {links.map(({id, link}) => (
 
             <li className="" key={id}>{link}</li>

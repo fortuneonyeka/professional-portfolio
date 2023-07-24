@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full lg:px-[10vw] h-screen  text-gray-200"
+      className="w-full lg:px-[10vw] h-screen  text-gray-200 mt-24 md:mt-0"
     >
       <div className="mx-auto p-4 max-w-screen-lg flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -27,19 +27,19 @@ const About = () => {
 
         <div className="flex flex-col">
             <div className="flex flex-col gap-2 md:flex-row md:gap-4">
-              <article className="shadow-lg rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl  border border-gray-400 p-3 flex flex-col gap-1">
+              <article className="shadow-md shadow-green-200 rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl  border border-gray-400 p-3 flex flex-col gap-1">
                 <FaAward className="text-green-200" />
                 <h5>Experience</h5>
                 <small>{getYearsOfExperience()}+ Years Working</small>
               </article>
 
-              <article className=" rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl border border-gray-400 p-3 flex flex-col gap-1">
+              <article className="shadow-md shadow-green-200 rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl border border-gray-400 p-3 flex flex-col gap-1">
                 <BsStack className="text-green-200" />
                 <h5>Stack</h5>
                 <small>Full - Stack</small>
               </article>
 
-              <article className=" rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl border border-gray-400 p-3 flex flex-col gap-1">
+              <article className="shadow-md shadow-green-200 rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl border border-gray-400 p-3 flex flex-col gap-1">
                 <RiFolder4Fill className="text-green-200" />
                 <h5>Projects</h5>
                 <small>80+ Completed</small>

@@ -3,16 +3,17 @@ import Home from "./components/Home";
 import About from "./components/about/About";
 import SocialLinks from "./components/socials/SocialLinks";
 import Portfolio from "./components/portfolio/Portfolio";
+import Experience from "./components/experience/Experience";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-gradient-to-b from-black to-gray-800 ">
       <NavBar />
-      <div className="flex flex-col justify-between  bg-gradient-to-b from-black to-gray-800 gap-32 md:gap-0 ">
-
+      <div className="flex flex-col justify-between   gap-32 md:gap-0 ">
       <Home />
       <About />
       <Portfolio />
+      <Experience />
       </div>
       <SocialLinks />
     </div>

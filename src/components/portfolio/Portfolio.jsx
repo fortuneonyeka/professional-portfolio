@@ -64,7 +64,7 @@ const projects = [
             </div>
             <div className="p-1">{descrip}</div>
             <div className="flex items-center justify-center px-4  gap-4  pb-4">
-              <a href={demo} target="_blank" rel="noreferrer"   className="w-1/2 py-1 px-3 text-xl duration-200 hover:scale-110 bg-orange-400 rounded-lg text-center hover:text-green-200">Demo</a>
+              <a href={demo} target="_blank" rel="noreferrer"   className="w-1/2 py-1 px-3 text-xl duration-200 hover:scale-110  bg-transparent outline rounded-lg text-center hover:text-green-200">Demo</a>
               <a href={github} target="_blank" rel="noreferrer" className="w-1/2 py-1 px-3 text-xl duration-200 hover:scale-110 bg-blue-400 rounded-lg text-center hover:text-green-200">Github</a>
             </div>
           </div>

@@ -22,82 +22,98 @@ const Experience = () => {
     {
       title: "Javascript",
       img: javascript,
-      color: "shadow-yellow-500"
+      color: "shadow-yellow-500",
+      textColor: "text-yellow-500"
     },
     {
       title: "react",
       img: react,
-      color: "shadow-blue-600"
+      color: "shadow-[#00D7FE]",
+      textColor: "text-[#00D7FE]"
     },
     {
       title: "redux",
       img: redux,
-      color: "shadow-indigo-600"
+      color: "shadow-indigo-600",
+      textColor: "text-indigo-600"
     },
     {
       title: "nextjs",
       img: nextjs,
-      color: "shadow-white"
+      color: "shadow-white",
+      textColor: "text-white"
     },
     {
       title: "nodejs",
       img: node,
-      color: "shadow-green-500"
+      color: "shadow-green-500",
+      textColor: "text-green-500"
     },
     {
       title: "ruby on rails",
       img: Rubyonrails,
-      color: "shadow-red-400"
+      color: "shadow-red-400",
+      textColor: "text-red-400"
     },
     {
       title: "graphql",
       img: graphql,
-      color: "shadow-pink-400"
+      color: "shadow-pink-400",
+      textColor: "text-pink-400"
     },
     {
       title: "mongoDb",
       img: mongoDb,
-      color: "shadow-green-400"
+      color: "shadow-green-400",
+      textColor: "text-green-400"
     },
     {
       title: "firebase",
       img: firebase,
-      color: "shadow-yellow-500"
+      color: "shadow-yellow-500",
+      textColor: "text-yellow-500"
     },
     {
       title: "tailwind",
       img: tailwind,
-      color: "shadow-[#43A8B3]"
+      color: "shadow-[#43A8B3]",
+      textColor: "text-[#43A8B3]"
     },
     {
       title: "css",
       img: css,
-      color: "shadow-blue-500"
+      color: "shadow-blue-500",
+      textColor: "text-blue-500"
     },
     {
       title: "framer Motion",
       img: framerMotion,
-      color: "shadow-indigo-600"
+      color: "shadow-indigo-600",
+      textColor: "text-indigo-600"
     },
     {
       title: "headlessui",
       img: headlessui,
-      color: "shadow-blue-600"
+      color: "shadow-blue-600",
+      textColor: "text-blue-600"
     },
     {
       title: "MUI",
       img: MUI,
-      color: "shadow-blue-400"
+      color: "shadow-blue-400",
+      textColor: "text-blue-400"
     },
     {
       title: "figma",
       img: figma,
-      color: "shadow-green-200"
+      color: "shadow-green-200",
+      textColor: "text-green-200"
     },
     {
       title: "github",
       img: github,
-      color: "shadow-white"
+      color: "shadow-white",
+      textColor: "text-white"
     },
   ]
   return (
@@ -108,10 +124,11 @@ const Experience = () => {
         <p className="text-4xl font-signature text-green-200 inline border-b-4 border-gray-500">Experience</p>
         <p className="italic p-4 text-xl">These but not limited to these are the technologies I have worked with</p>
       </div>
-      <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6  py-8 px-4 sm:px-0">
-        {experience.map(({title, img,color}) => (
+      <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6  py-4 px-4 sm:px-0">
+        {experience.map(({title, img,color, textColor}) => (
           <div className={`hover:scale-105 duration-200 p-2 rounded-lg shadow-lg ${color}`} key={title}>
-            <img src={img} alt="experience" className={`w-[300px] h-[120px] rounded-lg hover:scale-105 duration-200`}/>
+            <img src={img} alt="experience" className={`w-[300px] h-[110px] rounded-lg hover:scale-105 duration-200`}/>
+            <p className={`text-center items-center capitalize ${textColor}`}>{title}</p>
             </div>
         ))}
       </div>

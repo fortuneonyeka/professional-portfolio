@@ -11,11 +11,11 @@ function App() {
     <div className="bg-gradient-to-b from-black to-gray-800 ">
       <NavBar />
       <div className="flex flex-col justify-between   gap-32 md:gap-0 ">
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experience />
+        <Contact />
       </div>
       <SocialLinks />
     </div>

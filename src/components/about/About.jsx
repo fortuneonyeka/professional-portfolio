@@ -26,7 +26,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col">
-            <div className="flex flex-col gap-2 md:flex-row md:gap-4">
+            <div className="flex flex-col gap-2 md:flex-row md:gap-8">
               <article className="shadow-md shadow-green-200 rounded-md hover:scale-110 duration-200 bg-[#2c2c6c] hover:bg-gray-900 text-xl  border border-gray-400 p-3 flex flex-col gap-1">
                 <FaAward className="text-green-200" />
                 <h5>Experience</h5>

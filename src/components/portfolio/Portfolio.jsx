@@ -5,7 +5,6 @@ import homeFinder from "../../assets/portfolio/homeFinder.png"
 import blogApp from "../../assets/portfolio/blgApp.png"
 import taskManager from "../../assets/portfolio/taskManager.png"
 import fortuneMart from "../../assets/portfolio/fortuneMart.png"
-import { Link } from "react-router-dom";
 
 const Portfolio = () => {
 

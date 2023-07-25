@@ -3,7 +3,6 @@ import { FaLinkedin, FaTwitterSquare, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { color } from "framer-motion";
 
 const SocialLinks = () => {
   const socials = [

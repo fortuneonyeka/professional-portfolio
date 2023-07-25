@@ -45,7 +45,7 @@ const About = () => {
             </article>
             <div />
           </div>
-          <p className="text-xl mt-8">
+          <p className="text-xl mt-8 text-gray-300">
             As an Experienced Fullstack Developer, I am excited to bring my
             skills and expertise to your team. With over four plus years of
             experience building innovative digital solutions for various

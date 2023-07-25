@@ -8,10 +8,10 @@ const Home = () => {
     <div name="home" className=" h-screen  w-full  ">
       <div className="max-w-screen-lg mobile:mx-auto lg:mx-[10vw] 2xl:mx-auto flex flex-col items-center justify-center h-full p-4 md:gap- md:flex-row">
         <div className="flex flex-col justify-center items-center h-full px-4 ">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white  ">
+          <h2 className="text-4xl sm:text-7xl font-bold text-gray-300  ">
             I am a Full Stack Developer
           </h2>
-          <p className="text-gray-400 py-2 max-w-md text-justify">
+          <p className="text-gray-300 py-2 max-w-md text-justify">
             I have over 3 years of experience, I have developed innovative
             digital solutions for multiple companies across various industries.
             I specialize in Javascript, Nodejs, ReactJS, React-Redux, Nextjs,

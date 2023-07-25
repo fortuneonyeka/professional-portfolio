@@ -30,8 +30,8 @@ const NavBar = () => {
   return (
     <div className="relative">
       <div className="flex justify-between items-center px-6 w-full h-20  bg-black fixed z-10">
-        <div className="text-green-200">
-          <h1 className="font-signature text-5xl">Fortunatus</h1>
+        <div className="text-green-200 font-signature text-5xl cursor-pointer">
+        <Link   to="home" smooth duration={500}>Fortunatus</Link>
         </div>
 
         <ul className=" gap-4 cursor-pointer capitalize font-medium text-gray-400 hidden md:flex ">

@@ -9,7 +9,7 @@ const Contact = () => {
           {/* <p className="font-medium italic capitalize">Get in touch with the form below</p> */}
         </div>
         <div className="">
-          <form action="" className="flex flex-col w-full md:w-[50vw] justify-center mx-auto gap-5">
+          <form action="https://getform.io/f/bad6f370-2cc8-42ed-897d-5936cc8091ee" method="POST" className="flex flex-col w-full md:w-[50vw] justify-center mx-auto gap-5">
             <input type="text" name="name" placeholder="Enter your name" 
             className="p-2  border shadow-2xl rounded-md text-black text-xl focus:outline-none focus:rounded-lg focus:bg-transparent focus:text-white focus:border-4 focus:border-green-200"/>
 

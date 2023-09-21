@@ -35,7 +35,7 @@ const SocialLinks = () => {
       id: 7,
       icon: <BsFillPersonLinesFill size={30} />,
       name: "Resume",
-      href: "/IhedoroFortunatus.pdf",
+      href: "/IhedoroFortunatusResume.pdf",
       download: true,
     },
     {

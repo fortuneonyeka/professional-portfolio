@@ -1,29 +1,33 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const links = [
     {
       id: 1,
-      link: "home",
+      name: "Home",
+      link: '/',
     },
     {
       id: 2,
-      link: "about",
+      name: "About",
+      link: "/about",
     },
     {
       id: 3,
-      link: "portfolio",
+      name: "Portfolio",
+      link: "/portfolio",
     },
     {
       id: 4,
-      link: "experience",
+      name: "Experience",
+      link: "/experience",
     },
     {
       id: 5,
-      link: "contact",
+      name: "Contact",
+      link: "/contact",
     },
   ];
 
@@ -31,15 +35,15 @@ const NavBar = () => {
     <div className="relative">
       <div className="flex justify-between items-center px-6 w-full h-20  bg-black fixed z-10">
         <div className="text-green-200 font-signature text-5xl cursor-pointer">
-        <Link   to="home" smooth duration={500}>Fortunatus</Link>
+        <a   href="/">Fortunatus</a>
         </div>
 
         <ul className=" gap-4 cursor-pointer capitalize font-medium text-gray-400 hidden md:flex ">
-          {links.map(({ id, link }) => (
-            <li className="hover:scale-105 duration-200 " key={id}>
-              <Link to={link} smooth duration={500}>
-                {link}
-              </Link>
+          {links.map(( item) => (
+            <li className="hover:scale-105 duration-200 " key={item.id}>
+              <a href={item.link}>
+                {item.name}
+              </a>
             </li>
           ))}
         </ul>
@@ -53,16 +57,15 @@ const NavBar = () => {
 
         {nav && (
           <ul className="flex flex-col py-16 items-center absolute top-14 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 md:hidden capitalize gap-4 text-4xl ">
-            {links.map(({ id, link }) => (
-              <li className="" key={id}>
-                <Link
+            {links.map((item) => (
+              <li className="" key={item.id}>
+                <a
                   onClick={() => setNav(!nav)}
-                  to={link}
-                  smooth
-                  duration={500}
+                  href={item.link}
+                  
                 >
-                  {link}
-                </Link>
+                  {item.name}
+                </a>
               </li>
             ))}
           </ul>

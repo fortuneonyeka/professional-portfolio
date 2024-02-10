@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full lg:px-[10vw] h-screen  text-gray-200 mt-24 md:mt-0"
+      className="w-full lg:px-[10vw] h-screen  text-gray-200 mt-36 md:mt-0"
     >
       <div className="mx-auto p-4 max-w-screen-lg flex flex-col justify-center w-full h-full">
         <div className="pb-8">

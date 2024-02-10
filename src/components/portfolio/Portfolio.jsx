@@ -61,7 +61,7 @@ const projects = [
 ]
 
   return (
-    <div name="portfolio" className=" text-white md:h-screen lg:px-[10vw] mt-24 lg:md-0">
+    <div name="portfolio" className="mt-20">
       <div className="max-w-screen-lg mx-auto  flex flex-col justify-center w-full h-full">
         <div className="pb-">
           <p className="text-4xl px-4 font-signature inline border-b-4 border-gray-500 text-green-200 capitalize">Portfolio</p>

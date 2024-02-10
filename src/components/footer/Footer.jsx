@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-scroll"
 
 
 const Footer = () => {
@@ -13,14 +12,14 @@ const Footer = () => {
       className="flex justify-between flex-wrap mt-10 border-t
        border-gray-200 sm:px-16 px-6 py-10"
     >
-      <Link to="home" smooth duration={500} className="cursor-pointer font-signature text-xl text-gray-300">@2023 Fortunatus. All Rights Reserved &copy;</Link>
+      <a href="/" className="cursor-pointer font-signature text-xl text-gray-300">@2023 Fortunatus. All Rights Reserved &copy;</a>
       <div className=" font-signature text-xl">
-        <Link to="home" smooth duration={500} className="cursor-pointer text-gray-300">
+        <a href="/" className="cursor-pointer text-gray-300">
           Privacy Policy
-        </Link>
-        <Link to="home" smooth duration={500} className="cursor-pointer text-gray-300">
+        </a>
+        <a href="/" className="cursor-pointer text-gray-300">
           Terms of Use
-        </Link>
+        </a>
       </div>
     </div>
   </footer>

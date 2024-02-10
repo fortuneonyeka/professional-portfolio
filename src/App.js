@@ -6,6 +6,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import NotFound from "./components/notfound/NotFound";
 import {
   createBrowserRouter,
   Outlet,
@@ -26,45 +27,44 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element:<Layout />,
-    children:[
+    path: "/",
+    element: <Layout />,
+    children: [
       {
-        path:"/",
+        path: "/",
         element: <Home />,
-       
       },
-     
+
       {
-        path:"/about",
-        element: <About />
-      },
-      {
-        path:"/portfolio",
-        element: <Portfolio />
+        path: "/about",
+        element: <About />,
       },
       {
-        path:"/experience",
-        element: <Experience />
+        path: "/portfolio",
+        element: <Portfolio />,
       },
       {
-        path:"/contact",
-        element: <Contact />
+        path: "/experience",
+        element: <Experience />,
       },
-      // {
-      //   path:"*",
-      //   element: <NotFound />
-      // }
-    ]
-  }
-])
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
     <div className="bg-gradient-to-b from-black to-gray-800 ">
       <NavBar />
       <div className="flex flex-col justify-between   gap-32 md:gap-0 ">
-      <RouterProvider router={router}/>
+        <RouterProvider router={router} />
       </div>
       <SocialLinks />
     </div>

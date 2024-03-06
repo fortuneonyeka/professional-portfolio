@@ -19,17 +19,17 @@ const Home = () => {
           </p>
 
           <div className="py-2 ">
-            <Link
-              to="portfolio"
+            <a
+              href="/portfolio"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-2 my-1 flex items-center rounded-md bg-gradient-to-tr from-cyan-500 to-blue-500 cursor-pointer shadow-md shadow-green-200"
             >
-              <span className="group-hover:scale-110">Projects </span>
+              Projects
               <span className="px-4 group-hover:rotate-90 duration-300 group-hover:scale-150">
                 <MdKeyboardArrowRight size={25} />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
 

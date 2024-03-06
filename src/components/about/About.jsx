@@ -5,9 +5,9 @@ import { BsStack } from "react-icons/bs";
 
 const About = () => {
   const getYearsOfExperience = () => {
-    var today = new Date();
-    var startYear = 2019;
-    var currentYearsOfExperience = today.getFullYear() - startYear;
+    const today = new Date();
+    const startYear = 2020;
+    const currentYearsOfExperience = today.getFullYear() - startYear;
 
     return currentYearsOfExperience;
   };
